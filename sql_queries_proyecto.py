@@ -1,65 +1,56 @@
 ddl_query = '''
-create table product_dimension(
-    product_id varchar(255) primary key, 
+
+create table sub_category(
+    sub_category_key int not null primary key,
     category varchar(255),
-    sub_category varchar(255),
+    sub_category varchar(255)
+);
+
+create table product(
+    product_key int not null primary key,
+    sub_category_key int references sub_category(sub_category_key),
+    product_id varchar(255), 
     product_name varchar(255)
 );
-
-create table date_dimension(
-    date_key int not null primary key,
-    full_date timestamp, 
-    day_of_week int,
-    day_num_in_month int,
-    day_num_overall int,
-    day_name varchar(255),
-    day_abbrev varchar(255),
-    weekday_flag varchar(255),
-    week_num_in_year int,
-    week_num_overall int,
-    week_begin_date date,
-    week_begin_date_key int,
-    month_ int,
-    month_num_overall int,
-    month_name varchar(255),
-    month_abbrev varchar(255),
-    quarter_ int,
-    year_ int,
-    yearmo int, 
-    fiscal_month int,
-    fiscal_quarter int,
-    fiscal_year int,
-    last_day_in_month_flag varchar(255),
-    same_day_year_ago_date date
-);
-
-create table location_dimension(
-    postal_code int not null primary key, 
-    city varchar(255),
+    
+create table state(
+    state_key int not null primary key, 
     state varchar(255),
     region varchar(255),
     country varchar(255)
 );
 
-create table customer_dimension(
-    customer_id varchar(255) primary key,
-    customer_name varchar(255),
+create table postal_code(
+    location_key int not null primary key,
+    state_key int references state(state_key), 
+    postal_code int,
+    city varchar(255)
+);
+
+create table segment(
+    segment_key int not null primary key,
     segment varchar (255)
 );
 
-create table order_dimension(
-    order_id varchar(255) primary key,
-    order_date timestamp,
-    ship_date timestamp,
+create table customer(
+    customer_key int not null primary key,
+    segment_key int references segment(segment_key),
+    customer_id varchar(255),
+    customer_name varchar(255)
+);
+
+create table ship_mode(
+    ship_mode_key int not null primary key,
     ship_mode varchar(255)
 );
 
-create table retail_sales_fact(
-    date_key int references date_dimension(date_key),
-    product_id varchar(255) references product_dimension(product_id),
-    postal_code int references location_dimension(postal_code),
-    customer_id varchar(255) references customer_dimension(customer_id),
-    order_id varchar(255) references order_dimension(order_id),
+create table total_orders(
+    order_id varchar(255),
+    order_date timestamp,
+    location_key int references postal_code(location_key),
+    customer_key int references customer(customer_key),
+    product_key int references product(product_key),
+    ship_mode_key int references ship_mode(ship_mode_key),
     profit decimal(9,2),
     quantity int,
     sales decimal(9,2),
