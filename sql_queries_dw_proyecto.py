@@ -1,6 +1,7 @@
-dw_query = '''
+CREATE_DW = '''
 create table product_dimension(
-    product_id varchar(255) primary key, 
+    product_key int not null primary key,
+    product_id varchar(255), 
     category varchar(255),
     sub_category varchar(255),
     product_name varchar(255)
@@ -34,7 +35,8 @@ create table date_dimension(
 );
 
 create table location_dimension(
-    postal_code int not null primary key, 
+    location_key int not null primary key,
+    postal_code int, 
     city varchar(255),
     state varchar(255),
     region varchar(255),
@@ -42,24 +44,24 @@ create table location_dimension(
 );
 
 create table customer_dimension(
-    customer_id varchar(255) primary key,
+    customer_key int not null primary key,
+    customer_id varchar(255),
     customer_name varchar(255),
     segment varchar (255)
 );
 
-create table order_dimension(
-    order_id varchar(255) primary key,
-    order_date timestamp,
-    ship_date timestamp,
+create table ship_mode(
+    ship_mode_key int not null primary key,
     ship_mode varchar(255)
 );
 
 create table retail_sales_fact(
     date_key int references date_dimension(date_key),
-    product_id varchar(255) references product_dimension(product_id),
-    postal_code int references location_dimension(postal_code),
-    customer_id varchar(255) references customer_dimension(customer_id),
-    order_id varchar(255) references order_dimension(order_id),
+    product_key int references product_dimension(product_key),
+    location_key int references location_dimension(location_key),
+    customer_key int references customer_dimension(customer_key),
+    ship_mode_key int references ship_mode(ship_mode_key),
+    order_id varchar(255),
     profit decimal(9,2),
     quantity int,
     sales decimal(9,2),
