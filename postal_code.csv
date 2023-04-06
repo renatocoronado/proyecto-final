@@ -1,0 +1,632 @@
+﻿location_key,state_key,postal_code,city
+1,20,1040,Holyoke
+2,20,1453,Leominster
+3,20,1752,Marlborough
+4,20,1810,Andover
+5,20,1841,Lawrence
+6,20,1852,Lowell
+7,20,1915,Beverly
+8,20,2038,Franklin
+9,20,2138,Cambridge
+10,20,2148,Malden
+11,20,2149,Everett
+12,20,2151,Revere
+13,20,2169,Quincy
+14,20,2740,New Bedford
+15,38,2886,Warwick
+16,38,2895,Woonsocket
+17,38,2908,Providence
+18,38,2920,Cranston
+19,28,3060,Nashua
+20,28,3301,Concord
+21,28,3820,Dover
+22,18,4240,Lewiston
+23,18,4401,Bangor
+24,44,5401,Burlington
+25,6,6010,Bristol
+26,6,6040,Manchester
+27,6,6360,Norwich
+28,6,6450,Meriden
+29,6,6457,Middletown
+30,6,6460,Milford
+31,6,6484,Shelton
+32,6,6708,Waterbury
+33,6,6810,Danbury
+34,6,6824,Fairfield
+35,29,7002,Bayonne
+36,29,7011,Clifton
+37,29,7017,East Orange
+38,29,7036,Linden
+39,29,7050,Orange
+40,29,7055,Passaic
+41,29,7060,Plainfield
+42,29,7090,Westfield
+43,29,7109,Belleville
+44,29,7501,Paterson
+45,29,7601,Hackensack
+46,29,7960,Morristown
+47,29,8302,Bridgeton
+48,29,8360,Vineland
+49,29,8401,Atlantic City
+50,29,8701,Lakewood
+51,29,8861,Perth Amboy
+52,29,8901,New Brunswick
+53,31,10009,New York City
+54,31,10011,New York City
+55,31,10024,New York City
+56,31,10035,New York City
+57,31,10550,Mount Vernon
+58,31,10701,Yonkers
+59,31,10801,New Rochelle
+60,31,11520,Freeport
+61,31,11550,Hempstead
+62,31,11561,Long Beach
+63,31,11572,Oceanside
+64,31,11757,Lindenhurst
+65,31,12180,Troy
+66,31,13021,Auburn
+67,31,13440,Rome
+68,31,13501,Utica
+69,31,13601,Watertown
+70,31,14215,Buffalo
+71,31,14304,Niagara Falls
+72,31,14609,Rochester
+73,31,14701,Jamestown
+74,37,16602,Altoona
+75,37,17403,York
+76,37,17602,Lancaster
+77,37,18018,Bethlehem
+78,37,18103,Allentown
+79,37,19013,Chester
+80,37,19120,Philadelphia
+81,37,19134,Philadelphia
+82,37,19140,Philadelphia
+83,37,19143,Philadelphia
+84,37,19601,Reading
+85,7,19711,Newark
+86,7,19805,Wilmington
+87,7,19901,Dover
+88,8,20016,Washington
+89,19,20707,Laurel
+90,19,20735,Clinton
+91,19,20852,Rockville
+92,19,20877,Gaithersburg
+93,19,21044,Columbia
+94,19,21215,Baltimore
+95,19,21740,Hagerstown
+96,45,22153,Springfield
+97,45,22204,Arlington
+98,45,22304,Alexandria
+99,45,22801,Harrisonburg
+100,45,22901,Charlottesville
+101,45,22980,Waynesboro
+102,45,23223,Richmond
+103,45,23320,Chesapeake
+104,45,23434,Suffolk
+105,45,23464,Virginia Beach
+106,45,23602,Newport News
+107,45,23666,Hampton
+108,45,24153,Salem
+109,47,26003,Wheeling
+110,32,27217,Burlington
+111,32,27360,Thomasville
+112,32,27405,Greensboro
+113,32,27511,Cary
+114,32,27514,Chapel Hill
+115,32,27534,Goldsboro
+116,32,27604,Raleigh
+117,32,27707,Durham
+118,32,27834,Greenville
+119,32,27893,Wilson
+120,32,28027,Concord
+121,32,28052,Gastonia
+122,32,28110,Monroe
+123,32,28205,Charlotte
+124,32,28314,Fayetteville
+125,32,28403,Wilmington
+126,32,28540,Jacksonville
+127,32,28601,Hickory
+128,32,28806,Asheville
+129,39,29203,Columbia
+130,39,29406,North Charleston
+131,39,29464,Mount Pleasant
+132,39,29483,Summerville
+133,39,29501,Florence
+134,39,29730,Rock Hill
+135,10,30062,Marietta
+136,10,30076,Roswell
+137,10,30080,Smyrna
+138,10,30188,Woodstock
+139,10,30318,Atlanta
+140,10,30328,Sandy Springs
+141,10,30344,East Point
+142,10,30605,Athens
+143,10,31088,Warner Robins
+144,10,31204,Macon
+145,10,31907,Columbus
+146,9,32114,Daytona Beach
+147,9,32127,Port Orange
+148,9,32137,Palm Coast
+149,9,32174,Ormond Beach
+150,9,32216,Jacksonville
+151,9,32303,Tallahassee
+152,9,32503,Pensacola
+153,9,32712,Apopka
+154,9,32725,Deltona
+155,9,32771,Sanford
+156,9,32839,Orlando
+157,9,32935,Melbourne
+158,9,33012,Hialeah
+159,9,33021,Hollywood
+160,9,33023,Miramar
+161,9,33024,Pembroke Pines
+162,9,33030,Homestead
+163,9,33063,Margate
+164,9,33065,Coral Springs
+165,9,33068,Pompano Beach
+166,9,33134,Coral Gables
+167,9,33142,Miami
+168,9,33161,North Miami
+169,9,33178,Miami
+170,9,33180,Miami
+171,9,33311,Fort Lauderdale
+172,9,33317,Plantation
+173,9,33319,Tamarac
+174,9,33407,West Palm Beach
+175,9,33433,Boca Raton
+176,9,33437,Boynton Beach
+177,9,33445,Delray Beach
+178,9,33458,Jupiter
+179,9,33614,Tampa
+180,9,33710,Saint Petersburg
+181,9,33801,Lakeland
+182,9,34741,Kissimmee
+183,9,34952,Port Saint Lucie
+184,1,35244,Hoover
+185,1,35401,Tuscaloosa
+186,1,35601,Decatur
+187,1,35630,Florence
+188,1,35810,Huntsville
+189,1,36116,Montgomery
+190,1,36608,Mobile
+191,1,36830,Auburn
+192,41,37042,Clarksville
+193,41,37064,Franklin
+194,41,37075,Hendersonville
+195,41,37087,Lebanon
+196,41,37130,Murfreesboro
+197,41,37167,Smyrna
+198,41,37211,Nashville
+199,41,37421,Chattanooga
+200,41,37604,Johnson City
+201,41,37620,Bristol
+202,41,37918,Knoxville
+203,41,38109,Memphis
+204,41,38134,Bartlett
+205,41,38301,Jackson
+206,41,38401,Columbia
+207,23,38671,Southaven
+208,23,39212,Jackson
+209,23,39401,Hattiesburg
+210,23,39503,Gulfport
+211,16,40214,Louisville
+212,16,40324,Georgetown
+213,16,40475,Richmond
+214,16,41042,Florence
+215,16,42071,Murray
+216,16,42104,Bowling Green
+217,16,42301,Owensboro
+218,16,42420,Henderson
+219,34,43017,Dublin
+220,34,43055,Newark
+221,34,43123,Grove City
+222,34,43130,Lancaster
+223,34,43229,Columbus
+224,34,43302,Marion
+225,34,43402,Bowling Green
+226,34,43615,Toledo
+227,34,44035,Elyria
+228,34,44052,Lorain
+229,34,44060,Mentor
+230,34,44105,Cleveland
+231,34,44107,Lakewood
+232,34,44134,Parma
+233,34,44221,Cuyahoga Falls
+234,34,44240,Kent
+235,34,44256,Medina
+236,34,44312,Akron
+237,34,45011,Hamilton
+238,34,45014,Fairfield
+239,34,45040,Mason
+240,34,45231,Cincinnati
+241,34,45373,Troy
+242,34,45503,Springfield
+243,13,46060,Noblesville
+244,13,46142,Greenwood
+245,13,46203,Indianapolis
+246,13,46226,Lawrence
+247,13,46350,La Porte
+248,13,46368,Portage
+249,13,46514,Elkhart
+250,13,46544,Mishawaka
+251,13,46614,South Bend
+252,13,47150,New Albany
+253,13,47201,Columbus
+254,13,47362,New Castle
+255,13,47374,Richmond
+256,13,47401,Bloomington
+257,13,47905,Lafayette
+258,21,48066,Roseville
+259,21,48073,Royal Oak
+260,21,48104,Ann Arbor
+261,21,48126,Dearborn
+262,21,48127,Dearborn Heights
+263,21,48146,Lincoln Park
+264,21,48180,Taylor
+265,21,48183,Trenton
+266,21,48185,Westland
+267,21,48187,Canton
+268,21,48205,Detroit
+269,21,48227,Detroit
+270,21,48234,Detroit
+271,21,48237,Oak Park
+272,21,48307,Rochester Hills
+273,21,48310,Sterling Heights
+274,21,48601,Saginaw
+275,21,48640,Midland
+276,21,48858,Mount Pleasant
+277,21,48911,Lansing
+278,21,49201,Jackson
+279,21,49423,Holland
+280,21,49505,Grand Rapids
+281,14,50315,Des Moines
+282,14,50322,Urbandale
+283,14,50701,Waterloo
+284,14,52001,Dubuque
+285,14,52240,Iowa City
+286,14,52302,Marion
+287,14,52402,Cedar Rapids
+288,14,52601,Burlington
+289,48,53081,Sheboygan
+290,48,53132,Franklin
+291,48,53142,Kenosha
+292,48,53186,Waukesha
+293,48,53209,Milwaukee
+294,48,53214,West Allis
+295,48,53711,Madison
+296,48,54302,Green Bay
+297,48,54401,Wausau
+298,48,54601,La Crosse
+299,48,54703,Eau Claire
+300,48,54880,Superior
+301,48,54915,Appleton
+302,22,55016,Cottage Grove
+303,22,55044,Lakeville
+304,22,55106,Saint Paul
+305,22,55113,Roseville
+306,22,55122,Eagan
+307,22,55124,Apple Valley
+308,22,55125,Woodbury
+309,22,55369,Maple Grove
+310,22,55407,Minneapolis
+311,22,55433,Coon Rapids
+312,22,55901,Rochester
+313,22,56301,Saint Cloud
+314,22,56560,Moorhead
+315,40,57103,Sioux Falls
+316,40,57401,Aberdeen
+317,40,57701,Rapid City
+318,33,58103,Fargo
+319,25,59102,Billings
+320,25,59405,Great Falls
+321,25,59601,Helena
+322,25,59715,Bozeman
+323,25,59801,Missoula
+324,12,60004,Arlington Heights
+325,12,60016,Des Plaines
+326,12,60025,Glenview
+327,12,60035,Highland Park
+328,12,60067,Palatine
+329,12,60068,Park Ridge
+330,12,60076,Skokie
+331,12,60089,Buffalo Grove
+332,12,60090,Wheeling
+333,12,60098,Woodstock
+334,12,60126,Elmhurst
+335,12,60174,Saint Charles
+336,12,60188,Carol Stream
+337,12,60201,Evanston
+338,12,60302,Oak Park
+339,12,60423,Frankfort
+340,12,60440,Bolingbrook
+341,12,60441,Romeoville
+342,12,60462,Orland Park
+343,12,60477,Tinley Park
+344,12,60505,Aurora
+345,12,60540,Naperville
+346,12,60543,Oswego
+347,12,60610,Chicago
+348,12,60623,Chicago
+349,12,60653,Chicago
+350,12,61032,Freeport
+351,12,61107,Rockford
+352,12,61604,Peoria
+353,12,61701,Bloomington
+354,12,61761,Normal
+355,12,61821,Champaign
+356,12,61832,Danville
+357,12,62301,Quincy
+358,12,62521,Decatur
+359,24,63116,Saint Louis
+360,24,63122,Kirkwood
+361,24,63301,Saint Charles
+362,24,63376,Saint Peters
+363,24,64055,Independence
+364,24,64118,Gladstone
+365,24,65109,Jefferson City
+366,24,65203,Columbia
+367,24,65807,Springfield
+368,15,66062,Olathe
+369,15,66212,Overland Park
+370,15,66502,Manhattan
+371,15,67212,Wichita
+372,15,67846,Garden City
+373,26,68025,Fremont
+374,26,68104,Omaha
+375,26,68701,Norfolk
+376,26,68801,Grand Island
+377,17,70065,Kenner
+378,17,70506,Lafayette
+379,17,70601,Lake Charles
+380,17,71111,Bossier City
+381,17,71203,Monroe
+382,3,71603,Pine Bluff
+383,3,71854,Texarkana
+384,3,71901,Hot Springs
+385,3,72032,Conway
+386,3,72209,Little Rock
+387,3,72401,Jonesboro
+388,3,72701,Fayetteville
+389,3,72756,Rogers
+390,3,72762,Springdale
+391,35,73034,Edmond
+392,35,73071,Norman
+393,35,73120,Oklahoma City
+394,35,73505,Lawton
+395,35,74012,Broken Arrow
+396,35,74133,Tulsa
+397,35,74403,Muskogee
+398,42,75002,Allen
+399,42,75007,Carrollton
+400,42,75019,Coppell
+401,42,75023,Plano
+402,42,75034,Frisco
+403,42,75043,Garland
+404,42,75051,Grand Prairie
+405,42,75056,The Colony
+406,42,75061,Irving
+407,42,75080,Richardson
+408,42,75081,Dallas
+409,42,75104,Cedar Hill
+410,42,75150,Mesquite
+411,42,75217,Dallas
+412,42,75220,Dallas
+413,42,75701,Tyler
+414,42,76017,Arlington
+415,42,76021,Bedford
+416,42,76051,Grapevine
+417,42,76063,Mansfield
+418,42,76106,Fort Worth
+419,42,76117,Haltom City
+420,42,76248,Keller
+421,42,76706,Waco
+422,42,76903,San Angelo
+423,42,77036,Houston
+424,42,77041,Houston
+425,42,77070,Houston
+426,42,77095,Houston
+427,42,77301,Conroe
+428,42,77340,Huntsville
+429,42,77489,Missouri City
+430,42,77506,Pasadena
+431,42,77520,Baytown
+432,42,77536,Deer Park
+433,42,77571,La Porte
+434,42,77573,League City
+435,42,77581,Pearland
+436,42,77590,Texas City
+437,42,77642,Port Arthur
+438,42,77705,Beaumont
+439,42,77803,Bryan
+440,42,77840,College Station
+441,42,78041,Laredo
+442,42,78207,San Antonio
+443,42,78415,Corpus Christi
+444,42,78501,Mcallen
+445,42,78521,Brownsville
+446,42,78539,Edinburg
+447,42,78550,Harlingen
+448,42,78577,Pharr
+449,42,78664,Round Rock
+450,42,78666,San Marcos
+451,42,78745,Austin
+452,42,79109,Amarillo
+453,42,79424,Lubbock
+454,42,79605,Abilene
+455,42,79762,Odessa
+456,42,79907,El Paso
+457,5,80004,Arvada
+458,5,80013,Aurora
+459,5,80020,Broomfield
+460,5,80022,Commerce City
+461,5,80027,Louisville
+462,5,80112,Englewood
+463,5,80122,Littleton
+464,5,80134,Parker
+465,5,80219,Denver
+466,5,80229,Thornton
+467,5,80501,Longmont
+468,5,80525,Fort Collins
+469,5,80538,Loveland
+470,5,80634,Greeley
+471,5,80906,Colorado Springs
+472,5,81001,Pueblo
+473,49,82001,Cheyenne
+474,11,83201,Pocatello
+475,11,83301,Twin Falls
+476,11,83501,Lewiston
+477,11,83605,Caldwell
+478,11,83642,Meridian
+479,11,83704,Boise
+480,43,84020,Draper
+481,43,84041,Layton
+482,43,84043,Lehi
+483,43,84057,Orem
+484,43,84062,Pleasant Grove
+485,43,84084,West Jordan
+486,43,84106,Salt Lake City
+487,43,84107,Murray
+488,43,84321,Logan
+489,43,84604,Provo
+490,2,85023,Phoenix
+491,2,85204,Mesa
+492,2,85224,Chandler
+493,2,85234,Gilbert
+494,2,85254,Scottsdale
+495,2,85281,Tempe
+496,2,85301,Glendale
+497,2,85323,Avondale
+498,2,85345,Peoria
+499,2,85364,Yuma
+500,2,85635,Sierra Vista
+501,2,85705,Tucson
+502,2,86442,Bullhead City
+503,30,87105,Albuquerque
+504,30,87124,Rio Rancho
+505,30,87401,Farmington
+506,30,87505,Santa Fe
+507,30,88001,Las Cruces
+508,30,88101,Clovis
+509,30,88220,Carlsbad
+510,27,89015,Henderson
+511,27,89031,North Las Vegas
+512,27,89115,Las Vegas
+513,27,89431,Sparks
+514,27,89502,Reno
+515,4,90004,Los Angeles
+516,4,90008,Los Angeles
+517,4,90032,Los Angeles
+518,4,90036,Los Angeles
+519,4,90045,Los Angeles
+520,4,90049,Los Angeles
+521,4,90278,Redondo Beach
+522,4,90301,Inglewood
+523,4,90503,Torrance
+524,4,90604,Whittier
+525,4,90640,Montebello
+526,4,90660,Pico Rivera
+527,4,90712,Lakewood
+528,4,90805,Long Beach
+529,4,91104,Pasadena
+530,4,91360,Thousand Oaks
+531,4,91505,Burbank
+532,4,91730,Rancho Cucamonga
+533,4,91761,Ontario
+534,4,91767,Pomona
+535,4,91776,San Gabriel
+536,4,91911,Chula Vista
+537,4,91941,La Mesa
+538,4,92020,El Cajon
+539,4,92024,Encinitas
+540,4,92025,Escondido
+541,4,92037,San Diego
+542,4,92054,Oceanside
+543,4,92105,San Diego
+544,4,92236,Coachella
+545,4,92253,La Quinta
+546,4,92307,Apple Valley
+547,4,92345,Hesperia
+548,4,92374,Redlands
+549,4,92399,Yucaipa
+550,4,92404,San Bernardino
+551,4,92503,Riverside
+552,4,92530,Lake Elsinore
+553,4,92553,Moreno Valley
+554,4,92563,Murrieta
+555,4,92592,Temecula
+556,4,92627,Costa Mesa
+557,4,92630,Lake Forest
+558,4,92646,Huntington Beach
+559,4,92672,San Clemente
+560,4,92677,Laguna Niguel
+561,4,92683,Westminster
+562,4,92691,Mission Viejo
+563,4,92704,Santa Ana
+564,4,92804,Anaheim
+565,4,93010,Camarillo
+566,4,93030,Oxnard
+567,4,93101,Santa Barbara
+568,4,93277,Visalia
+569,4,93309,Bakersfield
+570,4,93405,San Luis Obispo
+571,4,93454,Santa Maria
+572,4,93534,Lancaster
+573,4,93727,Fresno
+574,4,93905,Salinas
+575,4,94061,Redwood City
+576,4,94086,Sunnyvale
+577,4,94109,San Francisco
+578,4,94110,San Francisco
+579,4,94122,San Francisco
+580,4,94403,San Mateo
+581,4,94509,Antioch
+582,4,94513,Brentwood
+583,4,94521,Concord
+584,4,94526,Danville
+585,4,94533,Fairfield
+586,4,94568,Dublin
+587,4,94591,Vallejo
+588,4,94601,Oakland
+589,4,95037,Morgan Hill
+590,4,95051,Santa Clara
+591,4,95123,San Jose
+592,4,95207,Stockton
+593,4,95240,Lodi
+594,4,95336,Manteca
+595,4,95351,Modesto
+596,4,95610,Citrus Heights
+597,4,95616,Davis
+598,4,95661,Roseville
+599,4,95687,Vacaville
+600,4,95695,Woodland
+601,4,95823,Sacramento
+602,4,95928,Chico
+603,4,96003,Redding
+604,36,97030,Gresham
+605,36,97123,Hillsboro
+606,36,97206,Portland
+607,36,97224,Tigard
+608,36,97301,Salem
+609,36,97405,Eugene
+610,36,97477,Springfield
+611,36,97504,Medford
+612,36,97756,Redmond
+613,46,98002,Auburn
+614,46,98006,Bellevue
+615,46,98026,Edmonds
+616,46,98031,Kent
+617,46,98042,Covington
+618,46,98052,Redmond
+619,46,98059,Renton
+620,46,98103,Seattle
+621,46,98105,Seattle
+622,46,98115,Seattle
+623,46,98198,Des Moines
+624,46,98208,Everett
+625,46,98226,Bellingham
+626,46,98270,Marysville
+627,46,98502,Olympia
+628,46,98632,Longview
+629,46,98661,Vancouver
+630,46,99207,Spokane
+631,46,99301,Pasco

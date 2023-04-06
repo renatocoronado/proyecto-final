@@ -1,4 +1,3 @@
-#%%
 # carga de librerias
 
 import pandas as pd
@@ -9,18 +8,18 @@ import configparser
 import io
 from sqlalchemy import create_engine
 
-#%%
+
 # cargar archivos de configuraciones
 
 config = configparser.ConfigParser()
 config.read("credenciales_proyecto.cfg")
 
-#%%
+
 # cargar codigo ddl para creacion de tablas
 
 import sql_queries_proyecto
 
-#%%
+
 # crear base de datos
 
 try:
@@ -40,7 +39,7 @@ except Exception as ex:
     print("ERROR: Error al crear la base de datos.")
     print(ex)
 
-#%%
+
 # crear conexion con s3
 
 s3 = boto3.resource(
@@ -50,7 +49,7 @@ s3 = boto3.resource(
     aws_secret_access_key=config.get("IAM", "SECRET_ACCESS_KEY"),
 )
 
-#%%
+
 # se extraen elementos de cada carpeta del bucket
 
 lista_archivos_ordenes = []
@@ -89,7 +88,7 @@ lista_archivos_calendario = []
 for objt in s3.Bucket("superstorefiles").objects.filter(Prefix="calendar/"):
     lista_archivos_calendario.append(objt.key)
 
-#%%
+
 # se leen archivos de las listas y se unen
 
 df_ordenes = pd.DataFrame()
@@ -200,14 +199,13 @@ for archivo in lista_archivos_calendario:
         print("No es un archivo.")
         print(ex)
 
-#%%
+
 # crear sesion para luego insertar data en el rds
 
 database_uri = f"""postgresql://{config.get('RDS', 'DB_USER')}:{config.get('RDS', 'DB_PASSWORD')}@{config.get('RDS', 'DB_HOST')}:{config.get('RDS', 'DB_PORT')}/{config.get('RDS', 'DB_NAME')}"""
 engine = create_engine(database_uri)
 
 
-#%%
 # insertar dataframes en sus respectivas tablas de la base de datos
 
 df_segmentos.to_sql("segment", engine, if_exists="append", index=False)
@@ -227,5 +225,3 @@ df_envio.to_sql("ship_mode", engine, if_exists="append", index=False)
 df_calendario.to_sql("calendar", engine, if_exists="append", index=False)
 
 df_ordenes.to_sql("total_orders", engine, if_exists="append", index=False)
-
-#%%
